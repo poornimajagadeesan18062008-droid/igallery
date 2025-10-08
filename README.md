@@ -59,7 +59,7 @@ gallery.html
     </body>
 </html>
 
-gallery.css
+gallery.js
 
 function mousein()
 {
@@ -72,6 +72,44 @@ function mouseout()
     document.getElementById("Photo").style.width="230";
     document.getElementById("Photo").style.height="300";
 }
+
+gallery.css
+
+body {
+    background-color:rgb(173, 90, 173);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;;
+}
+
+.galleryitem {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.galleryitem img {
+    width: 230px;
+    height: 300px;
+}
+
+.copyrights{
+    width: 1510px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    top: 130px;
+    left: -20px;
+    position: relative;
+}
+
 
 
 ```
